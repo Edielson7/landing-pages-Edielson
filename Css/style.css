@@ -65,6 +65,9 @@ p {
     color: var(--white-color);
     max-width: 100%;
 }
+.juntartexto{
+  gap: var(--gap);
+}
 
 /* =======================
    MENU
