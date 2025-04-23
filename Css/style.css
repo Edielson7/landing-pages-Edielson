@@ -4,7 +4,7 @@
 :root {
     --primary-color: #09052A;
     --white-color: white;
-    --gap: 2rem;
+    --gap: 3rem;
 }
 
 /* =======================
@@ -42,7 +42,7 @@ h6 { font-size: 3.5rem; }
 
 p {
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 /* =======================
@@ -55,7 +55,8 @@ p {
 .main-content {
     max-width: 120rem;
     margin: 0 auto;
-    padding: 6rem var(--gap);
+    padding: 4rem var(--gap);
+ 
 }
 
 .main-bg {
@@ -69,10 +70,10 @@ p {
 /* =======================
    MENU
 ======================= */
-.menu-spacing {
-    height: 0.5rem;
-}
 
+.logo-menu{
+    width: 30rem;
+}
 .menu {
     background: var(--white-color);
     position: fixed;
@@ -84,11 +85,13 @@ p {
 }
 
 .menu h1 {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .menu h1 a {
     text-decoration: none;
+    font-size: 4rem;
+    color: brown;
 }
 
 .menu-content {
@@ -105,8 +108,15 @@ p {
 .menu ul li a {
     display: block;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1.5rem;
     font-size: 2.5rem;
+    color: black;
+    text-transform: uppercase;
+    
+}
+.menu ul li a:hover{
+    background: black;
+    color: white;
 }
 
 /* =======================
@@ -156,6 +166,7 @@ p {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
+    
 }
 
 .grid {
@@ -186,6 +197,9 @@ p {
 /* =======================
    GALERIA
 ======================= */
+.text-gallery{
+    margin-top: 20rem;
+}
 .gallery-img {
     width: 100%;
     max-width: 36rem;
@@ -236,6 +250,10 @@ tfoot td, table th {
 /* =======================
    FORMULÁRIO DE CONTATO
 ======================= */
+.text-form{
+    margin-top: 20rem;
+}
+
 .contact-form {
     grid-column: span 2;
 }
@@ -343,6 +361,13 @@ body .full-width {
     .grid {
         grid-template-columns: 1fr !important;
         gap: var(--gap);
+    }
+    .text-gallery{
+        margin-top: 1rem;
+    }
+
+    .text-form{
+        margin-top: 1rem;
     }
 
     .intro-text h2,
