@@ -55,7 +55,7 @@ p {
 .main-content {
     max-width: 120rem;
     margin: 0 auto;
-    padding: 8rem var(--gap);
+    padding: 6rem var(--gap);
 }
 
 .main-bg {
@@ -70,7 +70,7 @@ p {
    MENU
 ======================= */
 .menu-spacing {
-    height: 1rem;
+    height: 0.5rem;
 }
 
 .menu {
